@@ -1,0 +1,185 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex0 {
+    width: 1100px;
+    margin: 0 auto;
+}
+ 
+/*Первый блок*/
+header {
+    background: #59a6f3;
+}
+
+.logo {
+    margin-top: 50px;
+    animation-name: logo;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logo{
+    0% {
+        background: #59a6f3;
+    }
+    100% {
+        background: white;
+    }
+}
+.flex1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+}
+
+.flex11 {
+    width: 700px;
+    color: white;
+    line-height: 0px
+}
+
+.flex1_h1 {
+    margin-top: 70px;
+    font-size: 40px;
+    line-height: 0px;
+    margin-bottom: 60px;
+}
+
+.flex1_h11 {
+    font-size: 80px;
+}
+
+.flex1_h6 {
+    margin-top: 70px;
+    line-height: 10px;
+    font-size: 10px;
+    margin-bottom: 100px;
+}
+
+.flex1_h5 {
+    color: black;
+    background-color: rgb(255,218,22);
+    text-align: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 150px;
+    height: 30px;
+    transition: all 1s;
+}
+.flex1_h5:hover {
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.phone{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    animation-name: phone;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes phone {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(180deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-180deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+/*Второй блок*/
+.h2_flex2 {
+    margin-top: 100px;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.flex2 {
+     display: flex;
+     justify-content: space-between;
+
+}
+
+.flex20 {
+    text-align: center;
+}
+
+.flex20_h3 {
+    animation-name: h3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes h3{
+    0%{
+        background-color: white;
+    }
+    100%{
+        background-color: rgb(240, 141, 238);
+    }
+}
+
+.flex20_p {
+    width: 300px;
+    transition: all 1s;
+}
+
+.flex20_p:hover {
+    font-size: 20px;
+    background-color: rgb(81, 255, 0);
+}
+
+/*Третий блок*/
+.forms {
+    background-color: rgb(220, 243, 247);
+    text-align: center;
+}
+
+.h2_form {
+    margin-top: 100px;
+    padding-top: 100px;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+form {
+    font-size: 15px;
+}
+
+form input,
+button {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 2px;
+    width: 300px;
+    height: 30px;
+}
+
+button {
+    background-color: rgb(255,218,22);
+    width: 305px;
+    height: 40px;
+    margin-bottom: 100px;
+    transition: all 1s;
+}
+
+/*Четвертый блок*/
+.end {
+    padding: 50px;
+    color: white;
+    background-color: rgb(37,120,194);
+    text-align: center;
+}
